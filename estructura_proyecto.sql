@@ -44,7 +44,7 @@ CREATE TABLE plantel(
     fin_contrato DATE,
     goles INT,
     asistencias INT,
-    clausula DECIMAL
+    clausula DECIMAL(10, 2)
 );
 
 CREATE TABLE partido(
