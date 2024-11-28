@@ -27,7 +27,7 @@ CREATE TABLE arbitro(
     id_arbitro INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(200),
     apellido VARCHAR(200),
-    pais_nacimiento VARCHAR(200)
+    pais_nacimiento VARCHAR(200) DEFAULT 'Argentina'
 );
 
 -- TABLAS CON FK
