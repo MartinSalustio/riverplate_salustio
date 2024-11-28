@@ -63,7 +63,6 @@ CREATE TABLE club_del_mundo(
     id_estadio INT,
     nombre_club VARCHAR(200),
     pais VARCHAR(200),
-    ciudad VARCHAR(200)
 );
 
 CREATE TABLE plantel_partido(
