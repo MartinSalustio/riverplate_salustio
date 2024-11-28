@@ -6,7 +6,8 @@ USE riverplate;
 
 CREATE TABLE posicion(
     id_posicion INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    posicion VARCHAR(100)
+    posicion VARCHAR(100),
+    caracteristica VARCHAR(100)
 );
 
 CREATE TABLE competicion(
