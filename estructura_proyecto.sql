@@ -62,7 +62,7 @@ CREATE TABLE club_del_mundo(
     id_club INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     id_estadio INT,
     nombre_club VARCHAR(200),
-    pais VARCHAR(200),
+    pais VARCHAR(200) DEFAULT 'Argentina'
 );
 
 CREATE TABLE plantel_partido(
